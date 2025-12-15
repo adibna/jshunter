@@ -21,10 +21,10 @@ This tool can help you to understand better the things around the World of Js Fi
 # Install Dependencies
 ```pip3 install -r requirements.txt```⠀⠀⠀⠀⠀⠀⠀
 
-```pip3 install streamlit pandas numpy```⠀⠀⠀⠀⠀⠀⠀
+```pip3 install streamlit pandas numpy```⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-# What we can do?⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+# What we can do?⠀⠀⠀⠀⠀⠀
 ### 1. DOM XSS Sink Detection
 Identifies high-risk JavaScript sinks and execution contexts that often lead to DOM-based XSS.
 * **Signatures:** `innerHTML`, `document.write()`, `eval()`, `dangerouslySetInnerHTML`, `location.href`.
